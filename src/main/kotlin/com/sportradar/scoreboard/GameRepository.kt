@@ -9,22 +9,25 @@ class GameRepository(
     }
 
     fun getGameById(uuid: String): Game? {
-        TODO()
+        return games.find { it.id == uuid }
     }
 
-    fun saveGame(game: Game): String {
-        TODO()
+    fun saveGame(game: Game) {
+        // if game will same id already exists, remove old one first
+        val existingGame = getGameById(game.id)
+        if (existingGame != null) { removeGame(existingGame) }
+        games.add(game)
     }
 
     fun saveGames(games: List<Game>) {
-        TODO()
+        games.forEach { saveGame(it) }
     }
 
-    fun removeGame(game: Game): Boolean {
-        TODO()
+    fun removeGame(game: Game) {
+        games.remove(game)
     }
 
-    fun removeGames(game: List<Game>): Boolean {
-        TODO()
+    fun removeGames(games: List<Game>) {
+        games.forEach { removeGame(it) }
     }
 }

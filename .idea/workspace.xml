@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="style: test files formatting and renamed some tests">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/GameRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/ScoreBoard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/GameRepositoryTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoarTest.kt" afterDir="false" />
+    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="test: creating tests for GameRepository and ScoreBoard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/GameRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/GameRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/GameRepositoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/GameRepositoryTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +223,7 @@
       <workItem from="1672816675352" duration="1074000" />
       <workItem from="1672817997357" duration="22000" />
       <workItem from="1672819258290" duration="26000" />
-      <workItem from="1672819415089" duration="12427000" />
+      <workItem from="1672819415089" duration="14544000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1672815681793</created>
@@ -256,17 +253,36 @@
       <option name="project" value="LOCAL" />
       <updated>1672822949820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test: creating tests for GameRepository and ScoreBoard">
+      <created>1672833565508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672833565508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="feat: team entity" />
     <MESSAGE value="feat: game entity" />
     <MESSAGE value="style: test files formatting and renamed some tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: test files formatting and renamed some tests" />
+    <MESSAGE value="test: creating tests for GameRepository and ScoreBoard" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: creating tests for GameRepository and ScoreBoard" />
   </component>
 </project>

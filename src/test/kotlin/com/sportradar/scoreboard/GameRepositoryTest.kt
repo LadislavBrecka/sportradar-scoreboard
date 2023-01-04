@@ -57,6 +57,19 @@ class GameRepositoryTest {
     }
 
     @Test
+    fun `Insert same game twice should persist the game only once to the repository`() {
+        val gameRepository = GameRepository()
+        val game = Game(
+            Team("REAL MADRID"),
+            Team("BARCELONA")
+        )
+
+        gameRepository.saveGame(game)
+        gameRepository.saveGame(game)
+        assertEquals(gameRepository.getAllGames().size, 1)
+    }
+
+    @Test
     fun `Insert multiple games should persist all games to the repository`() {
         val gameRepository = GameRepository()
         val game1 = Game(
@@ -102,10 +115,14 @@ class GameRepositoryTest {
             Team("LIVERPOOL"),
             Team("MANCHESTER UNITED")
         )
+        val game3 = Game(
+            Team("CHELSEA"),
+            Team("MANCHESTER CITY")
+        )
 
-        gameRepository.saveGames(listOf(game1, game2))
+        gameRepository.saveGames(listOf(game1, game2, game3))
         gameRepository.removeGames(listOf(game1, game2))
 
-        assertEquals(gameRepository.getAllGames().size, 0)
+        assertEquals(gameRepository.getAllGames().size, 1)
     }
 }
