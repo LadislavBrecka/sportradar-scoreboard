@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="feat: add implementation of GameRepository and tuned tests for better coverage">
+    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="refactor: typo bug in file name">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/GameRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/GameRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/ScoreBoard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/ScoreBoard.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoarTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Team.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Team.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoardTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +73,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ladislav/Projects/sportradar-proposal&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ladislav/Projects/sportradar-proposal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="com.sportradar.scoreboard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ScoreBoarTest.Get games in progress summary should return all games in progress ordered by total score">
+  <component name="RunManager" selected="Gradle.sportradar-scoreboard [test]">
     <configuration name="GameRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,8 +208,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ScoreBoarTest.Get games in progress summary should return all games in progress ordered by total score" />
         <item itemvalue="Gradle.sportradar-scoreboard [test]" />
+        <item itemvalue="Gradle.ScoreBoarTest.Get games in progress summary should return all games in progress ordered by total score" />
         <item itemvalue="Gradle.GameRepositoryTest" />
         <item itemvalue="Gradle.ScoreBoarTest" />
         <item itemvalue="Gradle.TeamTest" />
@@ -268,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672835658922</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor: typo bug in file name">
+      <created>1672842080316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672842080316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,17 +303,7 @@
     <MESSAGE value="style: test files formatting and renamed some tests" />
     <MESSAGE value="test: creating tests for GameRepository and ScoreBoard" />
     <MESSAGE value="feat: add implementation of GameRepository and tuned tests for better coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add implementation of GameRepository and tuned tests for better coverage" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoarTest.kt</url>
-          <line>134</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="refactor: typo bug in file name" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: typo bug in file name" />
   </component>
 </project>

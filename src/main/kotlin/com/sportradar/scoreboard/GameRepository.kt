@@ -1,8 +1,7 @@
 package com.sportradar.scoreboard
 
 class GameRepository(
-    private val games: MutableList<Game> = mutableListOf()
-) {
+    private val games: MutableList<Game> = mutableListOf()) {
 
     fun getAllGames(): List<Game> {
         return games

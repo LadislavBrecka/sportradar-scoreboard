@@ -1,8 +1,7 @@
 package com.sportradar.scoreboard
 
 class ScoreBoard(
-    private val gameRepository: GameRepository
-) {
+    private val gameRepository: GameRepository) {
 
     fun getAllGames(): List<Game> {
         return gameRepository.getAllGames()
