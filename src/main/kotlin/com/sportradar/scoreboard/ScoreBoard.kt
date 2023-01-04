@@ -1,35 +1,40 @@
 package com.sportradar.scoreboard
 
 class ScoreBoard(
-    val gameRepository: GameRepository
+    private val gameRepository: GameRepository
 ) {
 
-    fun startGame(game: Game): Boolean {
-        TODO()
-    }
-
-    fun startGamesOrdered(games: List<Game>): Boolean {
-        TODO()
-    }
-
-    fun finishGame(game: Game): Boolean {
-        TODO()
-    }
-
-    fun finishGames(games: List<Game>): Boolean {
-        TODO()
-    }
-
     fun getAllGames(): List<Game> {
-        TODO()
+        return gameRepository.getAllGames()
+    }
+
+    fun startGame(game: Game) {
+        gameRepository.saveGame(game)
+    }
+
+    fun startGamesOrdered(games: List<Game>) {
+        gameRepository.saveGames(games)
+    }
+
+    fun finishGame(game: Game) {
+        gameRepository.removeGame(game)
+    }
+
+    fun finishGames(games: List<Game>) {
+        gameRepository.removeGames(games)
     }
 
     fun updateGameScore(game: Game, homeTeamScore: Int, awayTeamScore: Int) {
-        TODO()
+        game.updateScore(homeTeamScore, awayTeamScore)
+        gameRepository.saveGame(game)
     }
 
     fun getGamesInProgressSummary(): List<Game> {
-        TODO()
+        return getAllGames()
+            .sortedWith(
+                compareByDescending<Game> { it.homeTeam.score + it.awayTeam.score }
+                    .thenByDescending { it.startTime }
+            )
     }
 
 }

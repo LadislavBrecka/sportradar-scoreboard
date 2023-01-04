@@ -71,10 +71,14 @@ class ScoreBoarTest {
             Team("LIVERPOOL"),
             Team("MANCHESTER UNITED")
         )
+        val game3 = Game(
+            Team("CHELSEA"),
+            Team("MANCHESTER CITY")
+        )
 
-        scoreBoard.startGamesOrdered(listOf(game1, game2))
+        scoreBoard.startGamesOrdered(listOf(game1, game2, game3))
         scoreBoard.finishGames(listOf(game1, game2))
-        assertEquals(scoreBoard.getAllGames().size, 0)
+        assertEquals(scoreBoard.getAllGames().size, 1)
     }
 
     @Test
