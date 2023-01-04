@@ -3,7 +3,7 @@ package com.sportradar.scoreboard
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-class ScoreBoarTest {
+class ScoreBoardTest {
 
     @Test
     fun `Creating scoreboard should create a empty scoreboard`() {
