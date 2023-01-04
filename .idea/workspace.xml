@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="feat: team entity">
+    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="style: test files formatting and renamed some tests">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/GameRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/ScoreBoard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/GameRepositoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sportradar/scoreboard/ScoreBoarTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sportradar/scoreboard/Game.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sportradar-scoreboard" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sportradar-scoreboard" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sportradar-scoreboard" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,7 +90,76 @@
       <recent name="com.sportradar.scoreboard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TeamTest">
+  <component name="RunManager" selected="Gradle.sportradar-scoreboard [test]">
+    <configuration name="GameRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sportradar.scoreboard.GameRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sportradar.scoreboard.GameTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ScoreBoarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.sportradar.scoreboard.ScoreBoarTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TeamTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -78,33 +183,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TeamTest.Updating the score by n goals should update the score by n" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sportradar-scoreboard [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.sportradar.scoreboard.TeamTest.Updating the score by n goals should update the score by n&quot;" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.sportradar-scoreboard [test]" />
+        <item itemvalue="Gradle.GameRepositoryTest" />
+        <item itemvalue="Gradle.ScoreBoarTest" />
         <item itemvalue="Gradle.TeamTest" />
-        <item itemvalue="Gradle.TeamTest.Updating the score by n goals should update the score by n" />
+        <item itemvalue="Gradle.GameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +226,7 @@
       <workItem from="1672816675352" duration="1074000" />
       <workItem from="1672817997357" duration="22000" />
       <workItem from="1672819258290" duration="26000" />
+      <workItem from="1672819415089" duration="12427000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1672815681793</created>
@@ -135,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672817667118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: game entity">
+      <created>1672822235637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672822235637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="style: test files formatting and renamed some tests">
+      <created>1672822949820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672822949820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="feat: team entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: team entity" />
+    <MESSAGE value="feat: game entity" />
+    <MESSAGE value="style: test files formatting and renamed some tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: test files formatting and renamed some tests" />
   </component>
 </project>
