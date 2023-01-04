@@ -12,7 +12,7 @@ class GameRepository(
     }
 
     fun saveGame(game: Game) {
-        // if game will same id already exists, remove old one first
+        // if game with same id already exists, remove old one before persisting updated
         val existingGame = getGameById(game.id)
         if (existingGame != null) { removeGame(existingGame) }
         games.add(game)

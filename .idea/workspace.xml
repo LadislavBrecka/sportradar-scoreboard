@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="style: edit code formatting">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/game-test-overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/gamerepository-test-overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/project-test-overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/scoreboard-test-overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/team-test-overview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ba872aa5-b9f0-4c5c-81e2-5f4cce844599" name="Changes" comment="doc: upload README with test results" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -289,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672842195423</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="doc: upload README with test results">
+      <created>1672845358562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672845358562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +314,7 @@
     <MESSAGE value="feat: add implementation of GameRepository and tuned tests for better coverage" />
     <MESSAGE value="refactor: typo bug in file name" />
     <MESSAGE value="style: edit code formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: edit code formatting" />
+    <MESSAGE value="doc: upload README with test results" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc: upload README with test results" />
   </component>
 </project>

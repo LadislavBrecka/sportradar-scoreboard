@@ -52,7 +52,7 @@ class TeamTest {
     }
 
     @Test
-    fun `Updating non initial score with negative value should do not update the score`() {
+    fun `Updating non initial score with negative value should not update the score`() {
         val team = Team("REAL MADRID")
 
         team.score = 4
